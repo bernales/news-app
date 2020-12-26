@@ -13,5 +13,11 @@
         {{ form.as_p }}
         <button class="btn btn-success ml-2" type="submit">Log In</button>
     </form>
+    <br>
+    <br>
+    <p>
+        <a href="{% url 'password_reset' %}">Forgot Password</a>
+    </p>
+    
 
 {% endblock content %}

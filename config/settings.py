@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 from pathlib import Path
 from environs import Env # new
 
-env = Env() # new
+env = Env()
 env.read_env() # new
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
