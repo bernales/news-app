@@ -1,7 +1,5 @@
 # news-app
 
-testing jenkins 2
-
 This newspaper application was built with the Django web framework. It allows users to create, edit, and delete posts. Users can leave comments on posts. The authentication system uses a custom model, and allows users to reset their passwords via SendGrid email. We use Postgres for the database.
 
 
