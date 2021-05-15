@@ -144,13 +144,7 @@ LOGOUT_REDIRECT_URL = 'home' # new
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 # configure email output. have output go to smtp.
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-DEFAULT_FROM_EMAIL = 'bbern23@protonmail.com'
-EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_HOST_USER = 'apikey'
-EMAIL_HOST_PASSWORD = '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'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
+
 
 
 TIME_ZONE = 'America/New_York'
